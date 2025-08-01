@@ -55,10 +55,6 @@ export default function Home() {
                 <div className={"flex flex-col items-center justify-center mb-4"}>
                     <Image src={"/logo.png"} alt={"BuilderHOA Logo"} width={200} height={200}
                            className={"rounded-full mb-4"}/>
-                    <h1 className={"text-4xl font-bold text-center mb-2"}>Welcome to BuilderHOA</h1>
-                    <p className={"text-lg text-gray-600 text-center max-w-md"}>
-                        The future of association management, built with Next.js and React.
-                    </p>
                 </div>
                 <div className={"position-relative overflow-hidden pt-2"}>
                     <iframe src="https://share.synthesia.io/embeds/videos/90ea75de-0ca0-453c-a015-09b9334d0161"
@@ -67,11 +63,14 @@ export default function Home() {
                             allow="encrypted-media; fullscreen;"
                             className={"position-relative w-[calc(100vw-10rem)] h-[calc(100vh-20rem)] rounded-lg shadow-lg"}></iframe>
                 </div>
-                <div className={"mt-8 text-center justify-center flex flex-col items-center"}>
-                    <p className={"text-gray-500"}>Explore our features and get started with your association
-                        management.</p>
-                    <p className={"font-semibold mt-2"}>Contact Us</p>
-                    <ChevronDownIcon/>
+                <div>
+                    <div className={"mt-8 text-center justify-center flex flex-col items-center"}>
+                        <p className={"text-gray-500"}>If you would like to participate in our pilot program, fill out
+                            the
+                            contact form below.</p>
+                        <p className={"font-semibold mt-2"}>Contact Us</p>
+                        <ChevronDownIcon/>
+                    </div>
                 </div>
             </div>
             <div className={"flex min-h-screen min-w-screen items-center justify-center"}>
