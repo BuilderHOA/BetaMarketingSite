@@ -79,10 +79,6 @@ export default function Home() {
                         <CardTitle className={"text-2xl font-bold"}>
                             Contact Us
                         </CardTitle>
-                        <CardDescription>
-                            Your message will be sent directly to the founder, Matthew Kearns.
-
-                        </CardDescription>
                     </CardHeader>
                     <CardContent>
                         {/* Contact us form or information can go here */}
